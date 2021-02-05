@@ -11,7 +11,7 @@ There are three separate folders:
 
 ## General series
 
-The main return series in the paper for both Paris and Amsterdam are provided in the files [TimeSeriesParisAnalysis.csv](data/TimeSeriesParisAnalysis.csv) and [TimeSeriesAmsterdamAnalysis.csv](data/TimeSeriesAmsterdamAnalysis.csv). The data used in the paper only covers the 1809-1943 period (Paris) and the 1900-1979 period (Amsterdam).
+The main return series in the paper for both Paris and Amsterdam are provided in the files [TimeSeriesParisAnalysis.csv](data/TimeSeriesParisAnalysis.csv) and [TimeSeriesAmsAnalysis.csv](data/TimeSeriesAmsAnalysis.csv). The data used in the paper only covers the 1809-1943 period (Paris) and the 1900-1979 period (Amsterdam).
 
 The main datafiles with processed raw data are [DataParisAnalysis.csv](data/DataParisAnalysis.csv) (Paris) and [DataAmsterdamInput.csv](data/DataAmsterdamInput.csv) (Amsterdam). These are used to created the yield series.
 
@@ -21,7 +21,7 @@ Finally, the code [TableStatsAll.R](code/TableStatsAll.R) computes dozens of dif
 
 ### Paris
 
-* [ParisSelData.R](code/“ParisSelData.R) transforms the raw input file [DataParisInput.csv](data/DataParisInput.csv) into the file [DataParisAnalysis.csv](data/DataParisAnalysis.csv) which will be used for most of the analysis, and transformed in other files (note that running this overwrites the final [DataParisAnalysis.csv](data/DataParisAnalysis.csv) ).
+* [ParisSelData.R](code/ParisSelData.R) transforms the raw input file [DataParisInput.csv](data/DataParisInput.csv) into the file [DataParisAnalysis.csv](data/DataParisAnalysis.csv) which will be used for most of the analysis, and transformed in other files (note that running this overwrites the final [DataParisAnalysis.csv](data/DataParisAnalysis.csv) ).
 
 * [ParisIndexConstruction.R](code/ParisIndexConstruction.R) contains the routines to estimate the price indices for capital gains (Section 3) and rent prices (Appendix B)
 
