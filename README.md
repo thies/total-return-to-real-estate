@@ -5,8 +5,8 @@ _by Piet Eichholtz, Matthijs Korevaar, Thies Lindenthal and Ronan Tallec_
 For questions and clarifications about the files and routines, please contact korevaar@ese.eur.nl
 
 There are three separate folders:
-* [figures](figures) contains the main figures that are used in the paper, both in the main body of the paper and in the appendix.
-* [data](data) contains data files and
+* [figures](figures) contains the main figures that are used in the paper, both in the main body of the paper and in the appendix,
+* [data](data) contains data files, and
 * [code](code) all code.
 
 ## General series
@@ -17,7 +17,7 @@ The main datafiles with processed raw data are [DataParisAnalysis.csv](data/Data
 
 Finally, the code [TableStatsAll.R](code/TableStatsAll.R) computes dozens of different summary statistics on the series, most of which are used in the paper. The [Graphs.R](data/Graphs.R) construct the various return graphs. Other graphs are constructed in individual files, such as [yields.nbh.ams.R](code/yields.nbh.ams.R) or [yields.nbh.par.R](code/yields.nbh.par.R), which produce the yield maps for Paris and Amsterdam.
 
-## City-Specific Codes and Data.
+## City-Specific Code and Data
 
 ### Paris
 
